@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A261B0723CA6E210060B464 /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A261B0623CA6E210060B464 /* ProductsCell.swift */; };
+		0A261B0923CA6E3B0060B464 /* ProductsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A261B0823CA6E3B0060B464 /* ProductsCell.xib */; };
+		0A449FCE23CA399E00A71295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A449FCD23CA399E00A71295 /* AppDelegate.swift */; };
+		0A449FD023CA399E00A71295 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A449FCF23CA399E00A71295 /* SceneDelegate.swift */; };
+		0A449FD723CA39A100A71295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A449FD623CA39A100A71295 /* Assets.xcassets */; };
+		0A449FE523CA39A200A71295 /* CoolBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A449FE423CA39A200A71295 /* CoolBlueTests.swift */; };
+		0A449FF123CA3BA400A71295 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A449FF023CA3BA400A71295 /* UI.swift */; };
+		0A449FF423CA3F7700A71295 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A449FF323CA3F7700A71295 /* APIClient.swift */; };
+		0A449FFB23CA41F300A71295 /* BaseDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A449FF823CA41F300A71295 /* BaseDispatcher.swift */; };
+		0A449FFC23CA41F300A71295 /* BaseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A449FF923CA41F300A71295 /* BaseAssembly.swift */; };
+		0A449FFD23CA41F300A71295 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A449FFA23CA41F300A71295 /* BaseRouter.swift */; };
+		0A449FFF23CA421C00A71295 /* QueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A449FFE23CA421C00A71295 /* QueueManager.swift */; };
+		0A44A00B23CA44AC00A71295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A44A00723CA44AC00A71295 /* LaunchScreen.storyboard */; };
+		0A44A00C23CA44AC00A71295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A44A00923CA44AC00A71295 /* Main.storyboard */; };
+		0A44A00F23CA44D300A71295 /* ProductsListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A00E23CA44D300A71295 /* ProductsListAssembly.swift */; };
+		0A44A01123CA44E000A71295 /* ProductsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A01023CA44E000A71295 /* ProductsListViewModel.swift */; };
+		0A44A01323CA44EE00A71295 /* ProductsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A01223CA44EE00A71295 /* ProductsListInteractor.swift */; };
+		0A44A01523CA450E00A71295 /* ProductsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A01423CA450E00A71295 /* ProductsListViewController.swift */; };
+		0A44A02623CA4B1700A71295 /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A02123CA4B1600A71295 /* ProductsModel.swift */; };
+		0A44A02723CA4B1700A71295 /* ProductsReviewInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A02223CA4B1700A71295 /* ProductsReviewInformation.swift */; };
+		0A44A02823CA4B1700A71295 /* ProductsPromoIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A02323CA4B1700A71295 /* ProductsPromoIcon.swift */; };
+		0A44A02923CA4B1700A71295 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A02423CA4B1700A71295 /* Product.swift */; };
+		0A44A02A23CA4B1700A71295 /* ProductsReviewSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A02523CA4B1700A71295 /* ProductsReviewSummary.swift */; };
+		3ECFD8C1ED2A51CD4266EC3F /* Pods_CoolBlueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCE5EB841A84BB6CC00DA60 /* Pods_CoolBlueTests.framework */; };
+		6C8A84305AB88D48916FA13F /* Pods_CoolBlue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5900E37B9D28025AF8B83E /* Pods_CoolBlue.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A449FE123CA39A200A71295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A449FC223CA399E00A71295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A449FC923CA399E00A71295;
+			remoteInfo = CoolBlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A261B0623CA6E210060B464 /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
+		0A261B0823CA6E3B0060B464 /* ProductsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsCell.xib; sourceTree = "<group>"; };
+		0A449FCA23CA399E00A71295 /* CoolBlue Products.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoolBlue Products.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A449FCD23CA399E00A71295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A449FCF23CA399E00A71295 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A449FD623CA39A100A71295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A449FDB23CA39A100A71295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A449FE023CA39A200A71295 /* CoolBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A449FE423CA39A200A71295 /* CoolBlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBlueTests.swift; sourceTree = "<group>"; };
+		0A449FE623CA39A200A71295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A449FF023CA3BA400A71295 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		0A449FF323CA3F7700A71295 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		0A449FF823CA41F300A71295 /* BaseDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDispatcher.swift; sourceTree = "<group>"; };
+		0A449FF923CA41F300A71295 /* BaseAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAssembly.swift; sourceTree = "<group>"; };
+		0A449FFA23CA41F300A71295 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		0A449FFE23CA421C00A71295 /* QueueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueManager.swift; sourceTree = "<group>"; };
+		0A44A00823CA44AC00A71295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CoolBlue/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		0A44A00A23CA44AC00A71295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CoolBlue/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		0A44A00E23CA44D300A71295 /* ProductsListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListAssembly.swift; sourceTree = "<group>"; };
+		0A44A01023CA44E000A71295 /* ProductsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListViewModel.swift; sourceTree = "<group>"; };
+		0A44A01223CA44EE00A71295 /* ProductsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListInteractor.swift; sourceTree = "<group>"; };
+		0A44A01423CA450E00A71295 /* ProductsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsListViewController.swift; sourceTree = "<group>"; };
+		0A44A02123CA4B1600A71295 /* ProductsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		0A44A02223CA4B1700A71295 /* ProductsReviewInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsReviewInformation.swift; sourceTree = "<group>"; };
+		0A44A02323CA4B1700A71295 /* ProductsPromoIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsPromoIcon.swift; sourceTree = "<group>"; };
+		0A44A02423CA4B1700A71295 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0A44A02523CA4B1700A71295 /* ProductsReviewSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsReviewSummary.swift; sourceTree = "<group>"; };
+		260550A058E6B947CB6DCED9 /* Pods-CoolBlueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolBlueTests.debug.xcconfig"; path = "Target Support Files/Pods-CoolBlueTests/Pods-CoolBlueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36A75BA1802309E349C8585C /* Pods-CoolBlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolBlue.debug.xcconfig"; path = "Target Support Files/Pods-CoolBlue/Pods-CoolBlue.debug.xcconfig"; sourceTree = "<group>"; };
+		3A5900E37B9D28025AF8B83E /* Pods_CoolBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0FA9F453F0E83F591BACBF /* Pods-CoolBlueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolBlueTests.release.xcconfig"; path = "Target Support Files/Pods-CoolBlueTests/Pods-CoolBlueTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E3779CADA750218C78EA04E /* Pods-CoolBlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolBlue.release.xcconfig"; path = "Target Support Files/Pods-CoolBlue/Pods-CoolBlue.release.xcconfig"; sourceTree = "<group>"; };
+		ADCE5EB841A84BB6CC00DA60 /* Pods_CoolBlueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolBlueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A449FC723CA399E00A71295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8A84305AB88D48916FA13F /* Pods_CoolBlue.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A449FDD23CA39A200A71295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECFD8C1ED2A51CD4266EC3F /* Pods_CoolBlueTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A261B0523CA6E0F0060B464 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0A261B0623CA6E210060B464 /* ProductsCell.swift */,
+				0A261B0823CA6E3B0060B464 /* ProductsCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0A449FC123CA399E00A71295 = {
+			isa = PBXGroup;
+			children = (
+				0A449FCC23CA399E00A71295 /* CoolBlue */,
+				0A449FE323CA39A200A71295 /* CoolBlueTests */,
+				0A449FCB23CA399E00A71295 /* Products */,
+				C7EDB7A147BD43DDA10A22BB /* Pods */,
+				F4EEA99268C4AAFC9DA1DDB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A449FCB23CA399E00A71295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A449FCA23CA399E00A71295 /* CoolBlue Products.app */,
+				0A449FE023CA39A200A71295 /* CoolBlueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A449FCC23CA399E00A71295 /* CoolBlue */ = {
+			isa = PBXGroup;
+			children = (
+				0A44A00023CA434500A71295 /* AppDelegate */,
+				0A449FF723CA41F300A71295 /* BaseModule */,
+				0A449FF223CA3F6A00A71295 /* NetworkLayer */,
+				0A44A00123CA435500A71295 /* Resources */,
+				0A44A00223CA436C00A71295 /* Modules */,
+			);
+			path = CoolBlue;
+			sourceTree = "<group>";
+		};
+		0A449FE323CA39A200A71295 /* CoolBlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A449FE423CA39A200A71295 /* CoolBlueTests.swift */,
+				0A449FE623CA39A200A71295 /* Info.plist */,
+			);
+			path = CoolBlueTests;
+			sourceTree = "<group>";
+		};
+		0A449FEF23CA3B9800A71295 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A449FF023CA3BA400A71295 /* UI.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A449FF223CA3F6A00A71295 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0A449FF823CA41F300A71295 /* BaseDispatcher.swift */,
+				0A449FFE23CA421C00A71295 /* QueueManager.swift */,
+				0A449FF323CA3F7700A71295 /* APIClient.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		0A449FF723CA41F300A71295 /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				0A449FEF23CA3B9800A71295 /* Helpers */,
+				0A449FF923CA41F300A71295 /* BaseAssembly.swift */,
+				0A449FFA23CA41F300A71295 /* BaseRouter.swift */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		0A44A00023CA434500A71295 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0A449FCD23CA399E00A71295 /* AppDelegate.swift */,
+				0A449FCF23CA399E00A71295 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0A44A00123CA435500A71295 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A44A00723CA44AC00A71295 /* LaunchScreen.storyboard */,
+				0A44A00923CA44AC00A71295 /* Main.storyboard */,
+				0A449FD623CA39A100A71295 /* Assets.xcassets */,
+				0A449FDB23CA39A100A71295 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A44A00223CA436C00A71295 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0A44A00D23CA44C100A71295 /* ProductsList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0A44A00D23CA44C100A71295 /* ProductsList */ = {
+			isa = PBXGroup;
+			children = (
+				0A44A01623CA462500A71295 /* Models */,
+				0A261B0523CA6E0F0060B464 /* Cells */,
+				0A44A00E23CA44D300A71295 /* ProductsListAssembly.swift */,
+				0A44A01023CA44E000A71295 /* ProductsListViewModel.swift */,
+				0A44A01223CA44EE00A71295 /* ProductsListInteractor.swift */,
+				0A44A01423CA450E00A71295 /* ProductsListViewController.swift */,
+			);
+			path = ProductsList;
+			sourceTree = "<group>";
+		};
+		0A44A01623CA462500A71295 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A44A02123CA4B1600A71295 /* ProductsModel.swift */,
+				0A44A02423CA4B1700A71295 /* Product.swift */,
+				0A44A02323CA4B1700A71295 /* ProductsPromoIcon.swift */,
+				0A44A02223CA4B1700A71295 /* ProductsReviewInformation.swift */,
+				0A44A02523CA4B1700A71295 /* ProductsReviewSummary.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C7EDB7A147BD43DDA10A22BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36A75BA1802309E349C8585C /* Pods-CoolBlue.debug.xcconfig */,
+				8E3779CADA750218C78EA04E /* Pods-CoolBlue.release.xcconfig */,
+				260550A058E6B947CB6DCED9 /* Pods-CoolBlueTests.debug.xcconfig */,
+				5B0FA9F453F0E83F591BACBF /* Pods-CoolBlueTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4EEA99268C4AAFC9DA1DDB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A5900E37B9D28025AF8B83E /* Pods_CoolBlue.framework */,
+				ADCE5EB841A84BB6CC00DA60 /* Pods_CoolBlueTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A449FC923CA399E00A71295 /* CoolBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A449FE923CA39A200A71295 /* Build configuration list for PBXNativeTarget "CoolBlue" */;
+			buildPhases = (
+				B295120CD7B7708D242BBCCA /* [CP] Check Pods Manifest.lock */,
+				0A449FC623CA399E00A71295 /* Sources */,
+				0A449FC723CA399E00A71295 /* Frameworks */,
+				0A449FC823CA399E00A71295 /* Resources */,
+				8863BD924FDA88C420AF387E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolBlue;
+			productName = CoolBlue;
+			productReference = 0A449FCA23CA399E00A71295 /* CoolBlue Products.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A449FDF23CA39A200A71295 /* CoolBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A449FEC23CA39A200A71295 /* Build configuration list for PBXNativeTarget "CoolBlueTests" */;
+			buildPhases = (
+				824FDC9FE6D51742F3040AF1 /* [CP] Check Pods Manifest.lock */,
+				0A449FDC23CA39A200A71295 /* Sources */,
+				0A449FDD23CA39A200A71295 /* Frameworks */,
+				0A449FDE23CA39A200A71295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A449FE223CA39A200A71295 /* PBXTargetDependency */,
+			);
+			name = CoolBlueTests;
+			productName = CoolBlueTests;
+			productReference = 0A449FE023CA39A200A71295 /* CoolBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A449FC223CA399E00A71295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Amr Hossam";
+				TargetAttributes = {
+					0A449FC923CA399E00A71295 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					0A449FDF23CA39A200A71295 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 0A449FC923CA399E00A71295;
+					};
+				};
+			};
+			buildConfigurationList = 0A449FC523CA399E00A71295 /* Build configuration list for PBXProject "CoolBlue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A449FC123CA399E00A71295;
+			productRefGroup = 0A449FCB23CA399E00A71295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A449FC923CA399E00A71295 /* CoolBlue */,
+				0A449FDF23CA39A200A71295 /* CoolBlueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A449FC823CA399E00A71295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A44A00C23CA44AC00A71295 /* Main.storyboard in Resources */,
+				0A261B0923CA6E3B0060B464 /* ProductsCell.xib in Resources */,
+				0A449FD723CA39A100A71295 /* Assets.xcassets in Resources */,
+				0A44A00B23CA44AC00A71295 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A449FDE23CA39A200A71295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		824FDC9FE6D51742F3040AF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoolBlueTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8863BD924FDA88C420AF387E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoolBlue/Pods-CoolBlue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoolBlue/Pods-CoolBlue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoolBlue/Pods-CoolBlue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B295120CD7B7708D242BBCCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoolBlue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A449FC623CA399E00A71295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A449FFC23CA41F300A71295 /* BaseAssembly.swift in Sources */,
+				0A449FFD23CA41F300A71295 /* BaseRouter.swift in Sources */,
+				0A44A01123CA44E000A71295 /* ProductsListViewModel.swift in Sources */,
+				0A449FFB23CA41F300A71295 /* BaseDispatcher.swift in Sources */,
+				0A44A01523CA450E00A71295 /* ProductsListViewController.swift in Sources */,
+				0A261B0723CA6E210060B464 /* ProductsCell.swift in Sources */,
+				0A44A00F23CA44D300A71295 /* ProductsListAssembly.swift in Sources */,
+				0A449FF423CA3F7700A71295 /* APIClient.swift in Sources */,
+				0A44A02623CA4B1700A71295 /* ProductsModel.swift in Sources */,
+				0A44A01323CA44EE00A71295 /* ProductsListInteractor.swift in Sources */,
+				0A449FFF23CA421C00A71295 /* QueueManager.swift in Sources */,
+				0A44A02A23CA4B1700A71295 /* ProductsReviewSummary.swift in Sources */,
+				0A449FF123CA3BA400A71295 /* UI.swift in Sources */,
+				0A449FCE23CA399E00A71295 /* AppDelegate.swift in Sources */,
+				0A44A02823CA4B1700A71295 /* ProductsPromoIcon.swift in Sources */,
+				0A44A02923CA4B1700A71295 /* Product.swift in Sources */,
+				0A44A02723CA4B1700A71295 /* ProductsReviewInformation.swift in Sources */,
+				0A449FD023CA399E00A71295 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A449FDC23CA39A200A71295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A449FE523CA39A200A71295 /* CoolBlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A449FE223CA39A200A71295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A449FC923CA399E00A71295 /* CoolBlue */;
+			targetProxy = 0A449FE123CA39A200A71295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A44A00723CA44AC00A71295 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A44A00823CA44AC00A71295 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0A44A00923CA44AC00A71295 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A44A00A23CA44AC00A71295 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A449FE723CA39A200A71295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A449FE823CA39A200A71295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A449FEA23CA39A200A71295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A75BA1802309E349C8585C /* Pods-CoolBlue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolBlue/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amrhossam.CoolBlue;
+				PRODUCT_NAME = "CoolBlue Products";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0A449FEB23CA39A200A71295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3779CADA750218C78EA04E /* Pods-CoolBlue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolBlue/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amrhossam.CoolBlue;
+				PRODUCT_NAME = "CoolBlue Products";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0A449FED23CA39A200A71295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260550A058E6B947CB6DCED9 /* Pods-CoolBlueTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolBlueTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amrhossam.CoolBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolBlue.app/CoolBlue";
+			};
+			name = Debug;
+		};
+		0A449FEE23CA39A200A71295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0FA9F453F0E83F591BACBF /* Pods-CoolBlueTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoolBlueTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amrhossam.CoolBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolBlue.app/CoolBlue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A449FC523CA399E00A71295 /* Build configuration list for PBXProject "CoolBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A449FE723CA39A200A71295 /* Debug */,
+				0A449FE823CA39A200A71295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A449FE923CA39A200A71295 /* Build configuration list for PBXNativeTarget "CoolBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A449FEA23CA39A200A71295 /* Debug */,
+				0A449FEB23CA39A200A71295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A449FEC23CA39A200A71295 /* Build configuration list for PBXNativeTarget "CoolBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A449FED23CA39A200A71295 /* Debug */,
+				0A449FEE23CA39A200A71295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A449FC223CA399E00A71295 /* Project object */;
+}

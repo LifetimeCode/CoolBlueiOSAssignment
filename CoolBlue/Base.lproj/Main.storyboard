@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5SC-1R-9iG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Empty Data Set Delegate-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ProductsVC" id="BYZ-38-t0r" customClass="ProductsListViewController" customModule="CoolBlue_Products" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qc5-JB-rsw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="52"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uu0-NG-8h5">
+                                        <rect key="frame" x="20" y="5" width="374" height="42"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icSearch" translatesAutoresizingMaskIntoConstraints="NO" id="plx-ug-E4p">
+                                                <rect key="frame" x="20" y="8.5" width="26" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="26" id="WZF-pY-Zac"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search for Products" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mPu-RB-dox">
+                                                <rect key="frame" x="54" y="0.0" width="312" height="42"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="search"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="mPu-RB-dox" secondAttribute="trailing" constant="8" id="4lD-MQ-spr"/>
+                                            <constraint firstAttribute="bottom" secondItem="mPu-RB-dox" secondAttribute="bottom" id="Sbi-io-G0Z"/>
+                                            <constraint firstItem="plx-ug-E4p" firstAttribute="centerY" secondItem="Uu0-NG-8h5" secondAttribute="centerY" id="cZM-z9-3s7"/>
+                                            <constraint firstItem="plx-ug-E4p" firstAttribute="leading" secondItem="Uu0-NG-8h5" secondAttribute="leading" constant="20" id="eRO-p5-Rqa"/>
+                                            <constraint firstItem="mPu-RB-dox" firstAttribute="leading" secondItem="plx-ug-E4p" secondAttribute="trailing" constant="8" id="fuW-uD-icc"/>
+                                            <constraint firstItem="mPu-RB-dox" firstAttribute="top" secondItem="Uu0-NG-8h5" secondAttribute="top" id="qtn-9Y-Sbu"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.56581026320000005" blue="0.88978189230000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Uu0-NG-8h5" secondAttribute="bottom" constant="5" id="2Zy-kd-0vY"/>
+                                    <constraint firstAttribute="trailing" secondItem="Uu0-NG-8h5" secondAttribute="trailing" constant="20" id="J6n-KC-GYC"/>
+                                    <constraint firstAttribute="height" constant="52" id="Qox-Ry-thb"/>
+                                    <constraint firstItem="Uu0-NG-8h5" firstAttribute="top" secondItem="Qc5-JB-rsw" secondAttribute="top" constant="5" id="UZE-Ab-Udw"/>
+                                    <constraint firstItem="Uu0-NG-8h5" firstAttribute="leading" secondItem="Qc5-JB-rsw" secondAttribute="leading" constant="20" id="s04-ZK-JRM"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gCD-hC-M8x">
+                                <rect key="frame" x="0.0" y="52" width="414" height="722"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="14" minimumInteritemSpacing="14" id="27c-0b-dVc">
+                                    <size key="itemSize" width="172" height="258"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="14" minY="14" maxX="14" maxY="14"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="13Z-Dc-m9F"/>
+                                    <outlet property="emptyDataSetDelegate" destination="BYZ-38-t0r" id="tbf-cu-lH1"/>
+                                    <outlet property="emptyDataSetSource" destination="BYZ-38-t0r" id="QJV-8Z-A1x"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qc5-JB-rsw" secondAttribute="trailing" id="JfV-FM-bJZ"/>
+                            <constraint firstItem="Qc5-JB-rsw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="KGR-Hn-PRd"/>
+                            <constraint firstItem="Qc5-JB-rsw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NcP-Ne-jq5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gCD-hC-M8x" secondAttribute="bottom" id="T6S-gt-FWi"/>
+                            <constraint firstItem="gCD-hC-M8x" firstAttribute="top" secondItem="Qc5-JB-rsw" secondAttribute="bottom" id="Ygy-kA-unM"/>
+                            <constraint firstItem="gCD-hC-M8x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gh6-VA-pTa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gCD-hC-M8x" secondAttribute="trailing" id="uPO-ux-caW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CoolBlue Products" id="p44-Hc-8Oc"/>
+                    <connections>
+                        <outlet property="collectionView" destination="gCD-hC-M8x" id="tdT-U8-OPL"/>
+                        <outlet property="searchBar" destination="mPu-RB-dox" id="qI4-cn-PIP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="137.94642857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ngm-3s-AZV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5SC-1R-9iG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="LHw-IW-UqT" customClass="CustomNav" customModule="CoolBlue_Products" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.56470588235294117" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="wtV-CA-73o"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tub-WB-yiT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="286" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icSearch" width="26" height="25"/>
+    </resources>
+    <color key="tintColor" red="0.0" green="0.56470588239999997" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

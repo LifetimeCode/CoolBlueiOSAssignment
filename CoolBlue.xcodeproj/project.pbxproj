@@ -606,6 +606,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amrhossam.CoolBlue;
+				PRODUCT_MODULE_NAME = CoolBlue;
 				PRODUCT_NAME = "CoolBlue Products";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -625,6 +626,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amrhossam.CoolBlue;
+				PRODUCT_MODULE_NAME = CoolBlue;
 				PRODUCT_NAME = "CoolBlue Products";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -649,7 +651,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolBlue.app/CoolBlue";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolBlue Products.app/CoolBlue Products";
 			};
 			name = Debug;
 		};
@@ -671,7 +673,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolBlue.app/CoolBlue";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolBlue Products.app/CoolBlue Products";
 			};
 			name = Release;
 		};
